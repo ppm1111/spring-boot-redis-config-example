@@ -5,3 +5,10 @@ spring:
     redis:
         host: localhost
         port: 6379
+    datasource:
+        url: jdbc:mysql://localhost:3306/redis_test?serverTimezone=Asia/Taipei
+        username: root
+        password: root
+        
+    jpa:
+      show-sql: true
